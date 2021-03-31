@@ -10,13 +10,13 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyCdvZCT1mKK3wrWU_6ozQlFcmp_g8HuAaE',
-  authDomain: 'chatgram-io.firebaseapp.com',
-  databaseURL: 'https://chatgram-io.firebaseio.com/',
-  projectId: 'chatgram-io',
-  storageBucket: 'chatgram-io.appspot.com',
-  messagingSenderId: '906799339951',
-  appId: '1:906799339951:web:f842d4369ff91847c0775a',
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STROAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 });
 
 const auth = firebase.auth();
