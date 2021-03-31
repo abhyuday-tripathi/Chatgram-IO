@@ -1,7 +1,11 @@
-# React Firebase Super Chat
+# ChatGram - Chat with MORE privacy
 
-A simple fullstack chat demo with React and Firebase. 
+A simple chat app where you can chat Publicly
 
-Watch on full [React Firebase Chat Tutorial](https://youtu.be/zQyrwxMPm88) on YouTube. 
+[Website](https://chatgram-io.web.app)
 
-[Live demo](https://fireship-demos.web.app/)
+<br>
+
+Author: `Abhyuday Tripathi`
+<br>
+License: `MIT`
