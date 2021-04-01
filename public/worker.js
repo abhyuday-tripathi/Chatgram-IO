@@ -1,5 +1,5 @@
-var CACHE_NAME = 'pwa-task-manager';
-var urlsToCache = ['/', '/completed'];
+const CACHE_NAME = 'pwa-chatgram';
+const urlsToCache = ['/', '/completed'];
 
 // Install a service worker
 self.addEventListener('install', event => {
@@ -40,3 +40,5 @@ self.addEventListener('activate', event => {
     })
   );
 });
+
+console.clear();

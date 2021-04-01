@@ -139,3 +139,5 @@ export function unregister() {
       });
   }
 }
+
+console.clear();

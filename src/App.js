@@ -9,6 +9,8 @@ import 'firebase/analytics';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
+console.clear();
+
 firebase.initializeApp({
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
@@ -25,7 +27,7 @@ const analytics = firebase.analytics();
 
 function App() {
   const [user] = useAuthState(auth);
-
+  console.clear();
   return (
     <div className='App'>
       <header>
@@ -129,5 +131,7 @@ function ChatMessage(props) {
     </>
   );
 }
+
+console.clear();
 
 export default App;
